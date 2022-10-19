@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <head><b><h1>FORMS</h1></b></head>
+    <div class="forms">
+        <form action="" method="get">
+            <label for="fname"> Name: </label>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name" required><br><br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required><br><br>
+            <label for="Phone">Mobile No: </label>
+            <input type="number" name="number" id="number" maxlength="10" required><br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required><br><br>
+            <!--Radio Button-->
+            <label for="Languages">Language: </label><br><br>
+            <input type="radio" id="react" name="language" value="React" required>
+            <label for="React">React</label><br>
+            <input type="radio" id="Angular" name="language" value="Angular">
+            <label for="Angular">Angular</label><br>
+            <input type="radio" id="Vue" name="language" value="Vue">
+            <label for="Vue">Vue</label><br><br>
+            <!--CheckBox-->
+            <label for="Course">Course</label><br><br>  
+            <input type="checkbox" id="Course1" name="Course1" value="MERN" required>
+            <label for="vehicle1">MERN</label><br>
+            <input type="checkbox" id="Course2" name="Course2" value="MERN">
+            <label for="vehicle2">MERN</label><br>
+            <input type="checkbox" id="Course3" name="Course3" value="DJANGO">
+            <label for="vehicle3">DJANGO</label><br><br>
+            <!--Field-->
+            <label for="Field">Field</label><br>    
+            <select name="Field" id="Field">
+                <option value="Frontend">Frontend</option>
+                <option value="BackEnd">BackEnd</option>
+                <option value="FullStack">FullStack</option>
+            </select><br><br>
+            <!--Text Area-->
+            <textarea name="feedback" id="f1" cols="30" rows="10"></textarea><br><br>
+            <!--Submit Button-->
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+    </div>
+    <div class="tables">
+        <header><h1>Tables</h1></header>
+        <a href="tables.html">Click Here For The Tables</a>
+    </div>
+</body>
+</html>
